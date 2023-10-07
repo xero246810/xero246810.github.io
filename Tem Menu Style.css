@@ -8,6 +8,7 @@ body {margin:0;
 width: 100%;
 background-color: #ffa500;
 overflow: auto;
+overflow-y: scroll;
 }
 
 .icon-bar a {
