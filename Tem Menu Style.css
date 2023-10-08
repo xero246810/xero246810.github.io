@@ -98,9 +98,3 @@ display: block;
 label {
   display: block;
 }
-#menubar {
-	white-space: nowrap;
-	overflow-y:  none;
-	overflow-x:  auto;
-	-webkit-overflow-scrolling: touch;   /* for iOS */
-}
