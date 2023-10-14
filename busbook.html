@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>pheonix tours and travels</title>
+<link rel="stylesheet" href="Tem Menu Style.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body background="C:\Users\sushr\Desktop\img4.jpg" style="border:5px double cyan;">>
+<div class="icon-bar">
+  <a href="C:\Users\sushr\Desktop\Myhtml.html">                      <i class="fa fa-home" style="font-size:36px;"></i>        <br>Home           </a>
+<a href="C:\xampp\htdocs\sushruthphp\profile.html">                      <i class="fa fa-user-circle-o"  style="font-size:36px;"></i>        <br>Profile      &nbsp&nbsp   </a>
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-taxi" style="font-size:36px;">     </i><br>Cab bookings</button>
+    <div class="dropdown-content">
+      <a href="C:\xampp\htdocs\sushruthphp\formfront.html">Trip booking</a>
+      <a href="file:///C:/xampp/htdocs/sushruthphp/retform.html">view booking info</a>
+      <a href="C:\xampp\htdocs\sushruthphp\delform.html">booking cancellation</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-bus" style="font-size:36px;"></i>     <br>Bus fare</button>
+    <div class="dropdown-content">
+      <a href="C:\xampp\htdocs\sushruthphp\busbook.html">Fare booking form</a>
+      <a href="#">Fare viewing form</a>
+      <a href="#">Fare cancellation form</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-train" style="font-size:36px;"></i>    <br>Train journey</button>
+    <div class="dropdown-content">
+      <a href="#">Link 7</a>
+      <a href="#">Link 8</a>
+      <a href="#">Link 9</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-plane" style="font-size:36px;"></i>     <br>Flights<button>
+    <div class="dropdown-content">
+      <a href="#">Link 10</a>
+      <a href="#">Link 11</a>
+      <a href="#">Link 12</a>
+    </div>
+  </div> 
+<center>
+<div class="dropdown">
+<img src="C:\sushruth\Website Files\My Logo.jpg" width="150" height="150" style="border:5px double cyan;">
+ </div>
+</center>
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-ship" style="font-size:36px;"></i>     <br>Cruise plans</button>
+    <div class="dropdown-content">
+      <a href="#">Link 13</a>
+      <a href="#">Link 14</a>
+      <a href="#">Link 15</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-gift" style="font-size:36px;"></i>     <br>Souvineir</button>
+    <div class="dropdown-content">
+      <a href="#">Link 16</a>
+      <a href="#">Link 17</a>
+      <a href="#">Link 18</a>
+    </div>
+  </div> 
+ <!-- <div class="dropdown">
+    <button class="dropbtn">    <i class="fa fa-user-circle-o" style="font-size:36px;"></i><br>Profile     </button>
+    <div class="dropdown-content">
+      <a href=""C:\xampp\htdocs\sushruthphp\profile.html"">Link 19</a>
+      <a href="#">Link 20</a>
+      <a href="#">Link 21</a>
+    </div>
+  </div> -->
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-wpforms" style="font-size:36px"></i>     <br>Trip bookings</button>
+    <div class="dropdown-content">
+      <a href="#">Link 22</a>
+      <a href="#">Link 23</a>
+      <a href="#">Link 24</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">     <i class="fa fa-certificate" aria-hidden="true"></i>     <br>Best offers</button>
+    <div class="dropdown-content">
+      <a href="#">Link 25</a>
+      <a href="#">Link 26</a>
+      <a href="#">Link 27</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">    <i class="fa fa-map" aria-hidden="true"></i>    <br>Destination info <br>and attractions</button>
+    <div class="dropdown-content">
+      <a href="#">Link 28</a>
+      <a href="#">Link 29</a>
+      <a href="#">Link 30</a>
+    </div>
+  </div> 
+</div>
+<hr>
+
+<div class="pad"><h1 style="background:rgba(0,0,0,0.4); border:5px double cyan;"><center style="color:white; size='200px';"><marqee>Pheonix T.N.T<br>(Pheonix Tours aNd Travels)</marqee></center></h1></div>
+    <div class="pad"><div style="padding-right:350; padding-left:350;"> 
+        <h1 style="font-color:white">
+            <fieldset style="background:rgba(0,0,0,0.4); border:5px double cyan;"><legend style="color:#182ed9; background:cyan;">Form Registration:</legend><br>
+
+                <form method="POST"  action="http://localhost/sushruthphp/bookingdb.php">
+                    <div style="color:white;">
+                        starting terminal:<input type="text" id="strt" name="strt" size="40" align="right"><br>
+                        ending terminal:&nbsp&nbsp<input type="text" id="dest" name="dest" size="40"><br>
+                        bus type:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                         non-AC:
+                          <input type="radio" name="toggle" value="non-AC">
+                          AC:
+                          <input type="radio" name="toggle" value="AC">
+                          Sleeper Class:
+                          <input type="radio" name="toggle" value="Sleeper Class">
+                          
+                          <span></span>  
+                      <br>
+                        Date of travel:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date" id="date" name="date"><br>
+                        Fare Amount:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="amt" name="amt" size="40"><br>
+                        Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="email" name="email" size="40"><br><br><br>
+                        <center>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Submit" name="submit" class="form-submit-button">
+                        </center>
+                    </div>
+                </form>
+            </fieldset>
+        </h1>
+    </div>
+</div>
+</body>
+</html>
